@@ -17,6 +17,19 @@ public class Data {
     public int getAny() {
         return any;
     }
+
+    public void setDia(int dia) {
+        this.dia = dia;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
+
+    public void setAny(int any) {
+        this.any = any;
+    }
+
     public String toString(){
         return "La data es " + this.dia + " de " + this.mes + " del " + this.any;
     }

@@ -10,6 +10,17 @@ public class Main {
         examens.add(new Examen("literatura",22,new Data(4,4,4),new Hora(4,4) ));
         examens.add(new Examen("geografía",16,new Data(5,5,5),new Hora(5,5) ));
 
+        System.out.println(examens.get(0).toString());
+        System.out.println("-------------------------------------------------");
+        examens.get(0).getData().setDia(10);
+        examens.get(0).getData().setMes(9);
+        examens.get(0).getData().setAny(2001);
+        examens.get(0).getHora().setHora(16);
+        examens.get(0).getHora().setMinuts(30);
+        System.out.println(examens.get(0).toString());
+
+        System.out.println("*************************************************");
+
         for (Examen i: examens){
             System.out.println(i.toString());
         }

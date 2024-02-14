@@ -13,6 +13,16 @@ public class Hora {
     public int getMinuts() {
         return minuts;
     }
+
+    public void setHora(int hora) {
+        this.hora = hora;
+    }
+
+    public void setMinuts(int minuts) {
+        this.minuts = minuts;
+    }
+
+
     public String toString(){
         return "L'hora es " + this.hora + ":" + this.minuts;
     }
